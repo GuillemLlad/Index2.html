@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+   
+    <table style="width:400px" align="center">
+        <thead>
+        <tr>
+            <th scope="colgroup"> Llista ordenada </th>
+            <th scope="colgroup"> Llista NO ordenada </th>
+        </tr>
+        </thead>
+        <tbody style= text-align: "center">
+            <tr>
+            <td>
+                <ol type="a" start="4"> 
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ol>
+                <ol reversed start="100">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ol>
+                <ol type="i" start="999">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ol>
+            </td>
+            <td>
+                <ul>
+                    <li>Element 1 </li>
+                    <li>Element 2 </li>
+                    <li>Element 3 </li>
+                    <li>Element 4 </li>
+                </ul>
+                <ul style="list-style-type:circle">
+                    <li>Element 1 </li>
+                    <li>Element 2 </li>
+                    <li>Element 3 </li>
+                    <li>Element 4 </li>
+                </ul>
+                <ul style="list-style-type:square">
+                    <li>Element 1 </li>
+                    <li>Element 2 </li>
+                    <li>Element 3 </li>
+                    <li>Element 4 </li>
+                </ul>
+            </td>        
+        </tr>
+        </tbody>
+        
+        
+</tr>
+</body>
+</html>
+
+//A partir d'aqui és CSS
+
+table, th, td {
+  border: 1px solid black;
+}
+ol, ul{
+    position: relative;
+    left: 25px;
+}
